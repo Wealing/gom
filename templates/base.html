@@ -8,7 +8,15 @@
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
   </head>
   <body>
-    <h1><a href="{{ url_for("index") }}">gom</a></h1>
+    <h1>
+      <div style="font-size: 60px;">
+        <a href="{{ url_for("index") }}">
+          <div>
+          <i style="vertical-align:100%" class="icon-road"></i>
+          </div>
+        </a>
+      </div>
+    </h1>
     <hr />
     {% block content %}
     <p>Default content to be displayed</p>
