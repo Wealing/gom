@@ -1,6 +1,8 @@
 {% extends "base.html" %}
 
 {% block content %}
-    <h2>{{ page.title }}</h2>
+    <h2>{{ page.title }}:</h2>
+    <h4>{{ page.subtitle }}</h4>
+    <h5 style="text-align: center; font-family:cmu_italic;">{{ page.date }}</h5>
     {{ page.html|safe }}
 {% endblock content %}

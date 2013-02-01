@@ -1,3 +1,44 @@
-.page {
-      margin: 20% 20% 100px 100px;
+body{
+    margin: 15px 30% 100px 30%;
+    font-family: cmu_serif;
+    letter-spacing:-0.5px;
+}
+@font-face {
+    font-family: cmu_serif;
+    src: url('/static/font/cmunrm.ttf');
+}
+
+@font-face {
+    font-family: cmu_bold;
+    src: url('/static/font/cmunbx.ttf');
+}
+
+@font-face {
+    font-family: cmu_upright_italic;
+    src: url('/static/font/cmunui.ttf');
+}
+
+
+@font-face {
+    font-family: cmu_italic;
+    src: url('/static/font/cmunti.ttf');
+}
+
+p{
+    text-align:justify;
+}
+h1{font-family: cmu_bold;letter-spacing:-1px;}
+h2{font-family: cmu_bold;letter-spacing:-1px;}
+h3{font-family: cmu_bold;letter-spacing:-1px;}
+h4{font-family: cmu_bold;letter-spacing:-1px;}
+h5{font-family: cmu_bold;letter-spacing:-1px;}
+
+a{
+    text-decoration:none;
+    color:rgb(97,123,190);
+}
+
+.home-link {
+    font-family:cmu_upright_italic;
+    color:rgb(206,73,131);
 }
