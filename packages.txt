@@ -11,6 +11,5 @@ PyYAML==3.10
 WTForms==1.0.2
 Werkzeug==0.8.3
 blinker==1.2
-git-remote-helpers==0.1.0
 passlib==1.6.1
 wsgiref==0.1.2

@@ -3,6 +3,6 @@
 {% block content %}
     <h2>{{ page.title }}:</h2>
     <h4>{{ page.subtitle }}</h4>
-    <h5 style="text-align: center; font-family:cmu_italic;">{{ page.date }}</h5>
+    <h5 style="font-family:cmu_italic;">{{ page.date|datetimeformat }}</h5>
     {{ page.html|safe }}
 {% endblock content %}
