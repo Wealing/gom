@@ -1,6 +1,6 @@
 title: Counting With Chemicals
 subtitle:  Information Processing and Thermodynamic Sponaneity 
-date: February 1, 2012
+date: 2012-2-1
 tags: [information-theory, language, communication]
 
 I suspect there have been much more thorough and academic treaments of the

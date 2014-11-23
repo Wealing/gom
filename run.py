@@ -1,7 +1,7 @@
 from flask import Flask, render_template
 from flask.ext.flatpages import FlatPages
 import jinja2
-import dateutil.parser
+from dateutil.parser import parse
 
 DEBUG = True
 FLATPAGES_AUTO_RELOAD = DEBUG
@@ -11,7 +11,8 @@ app = Flask(__name__)
 app.config.from_object(__name__)
 pages = FlatPages(app)
 
-jinja2.filters.FILTERS['datetimeformat'] = lambda dt : dt.strftime("%B %-d, %Y")
+jinja2.filters.FILTERS['datetimeformat'] = \
+        lambda dstr : parse(dstr).strftime("%B %-d, %Y")
 
 @app.route('/')
 def index():

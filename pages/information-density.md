@@ -1,5 +1,5 @@
 title: Natural Langauge Information Density
-date: 2012-10-09
+date: 2012-10-1
 tags: [information-theory, language, communication]
 
 This is a stub of a piece on the question of relative information density

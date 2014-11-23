@@ -1,5 +1,5 @@
 title: The Organism Line
-date: 2012-10-15
+date: 2012-10-1
 tags: [evolution, dynamical-systems]
 
 

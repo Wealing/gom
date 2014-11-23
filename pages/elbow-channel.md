@@ -1,5 +1,5 @@
 title: Assymetric Information Channels
-date: 2012-10-15
+date: 2012-10-1
 dstr: March 1, 2012
 tags: [information-theory]
 
