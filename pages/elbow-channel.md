@@ -17,7 +17,7 @@ you bag reorganizing itself. And so, at last we have our conceptual point of
 departure: You've got two dynamical systems interacting with eachother behaving
 according to well understood physical models, but one of them "knows" more about
 the other.  The existence of such scenarios isn't especially surprising, but
-let's look a little closer.
+let's look a little closer. Hello this is a test.
 
 Let's take the model a little simpler: it's not two people bouncing up against
 one another, but it's two sets of billiard balls which mostly bounce off one
